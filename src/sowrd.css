@@ -1,0 +1,45 @@
+@keyframes lightsaber {
+  from {
+    background-position: 200% 0;
+  }
+  to {
+    background-position: -200% 0;
+  }
+}
+
+.button-container {
+  position: relative;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #fff;
+  border-radius: 8px; /* مشابه rounded-lg */
+  overflow: hidden; /* برای مخفی کردن انیمیشن */
+}
+
+.button-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 8px; /* مشابه rounded-lg */
+  padding: 2px; /* ضخامت border */
+  background: linear-gradient(to left, #082b3a, #2984ac, #76d6ff);
+  background-size: 200% 100%;
+  animation: lightsaber 20s linear infinite;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+.button {
+  position: relative;
+  z-index: 1;
+  background-color: #fff; /* رنگ دکمه */
+  border: none;
+  border-radius: 8px; /* مشابه rounded-lg */
+  padding: 0.5rem .5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
