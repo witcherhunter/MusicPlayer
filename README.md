@@ -14,7 +14,7 @@ A modern and interactive music player built with React. This project includes va
 - **React** – The front-end framework for building the UI and handling state.
 - **Tailwind CSS** – For styling the components with utility-first CSS.
 - **Canvas** – Used for rendering the audio visualizer.
-- **MP3 to Base64 conversion** – Utilizes a library (perhaps `audio-to-base64`) to convert MP3 files to Base64 format, which is then visualized using Canvas.
+- **MP3 to Base64 conversion** – Utilizes a library  to convert MP3 files to Base64 format, which is then visualized using Canvas.
 - **NPM** – The project uses NPM for package management and running the development server.
 
 ## Getting Started 🚀
