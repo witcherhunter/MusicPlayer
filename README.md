@@ -25,3 +25,4 @@ A modern and interactive music player built with React. This project includes va
    `npm install`
 3. Start the development server:  
    `npm start`
+![Project Demo](./assets/your-gif-file.gif)
