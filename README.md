@@ -14,7 +14,7 @@ MP3 to Base64 conversion – Utilizes a library (perhaps audio-to-base64) to con
 NPM – The project uses NPM for package management and running the development server.
 Getting Started 🚀
 Clone the repository:
-git clone https://github.com/your-username/music-player.git
+git clone https://github.com/witcherhunter/MusicPlayer
 
 Install the dependencies:
 npm install
